@@ -2,8 +2,8 @@ import React from "react";
 import { Router, Route, IndexRoute } from "react-router";
 import { history } from "./store.js";
 import App from "./components/App";
-import Home from "./components/Home";
 import NotFound from "./components/NotFound";
+import Home from "./components/Home";
 
 // build the router
 const router = (
